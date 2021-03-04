@@ -8,10 +8,10 @@ environment:
   flutter: ">=1.22.0 <2.0.0"
 
 dependencies:
-  cupertino_icons: ^1.0.0
   flutter:
     sdk: flutter
-  ext_video_player: 
+  cupertino_icons: ^1.0.0
+  ext_video_player: ^0.0.6
   wakelock: ^0.2.1+1
 
 dev_dependencies:

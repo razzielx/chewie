@@ -7,23 +7,23 @@ import 'package:ext_video_player/ext_video_player.dart';
 
 void main() {
   runApp(
-    const ChewieDemo(),
+    const ChewieRotateDemo(),
   );
 }
 
-class ChewieDemo extends StatefulWidget {
+class ChewieRotateDemo extends StatefulWidget {
   // ignore: use_key_in_widget_constructors
-  const ChewieDemo({this.title = 'Chewie Demo'});
+  const ChewieRotateDemo({this.title = 'Chewie Demo'});
 
   final String title;
 
   @override
   State<StatefulWidget> createState() {
-    return _ChewieDemoState();
+    return _ChewieRotateDemoState();
   }
 }
 
-class _ChewieDemoState extends State<ChewieDemo> {
+class _ChewieRotateDemoState extends State<ChewieRotateDemo> {
   TargetPlatform _platform;
   VideoPlayerController _videoPlayerController1;
   VideoPlayerController _videoPlayerController2;
@@ -53,7 +53,7 @@ class _ChewieDemoState extends State<ChewieDemo> {
             builder: (BuildContext context, Widget child) {
               return VideoScaffold(
                 child: Scaffold(
-                  resizeToAvoidBottomPadding: false,
+                  resizeToAvoidBottomInset: false,
                   body: Container(
                     alignment: Alignment.center,
                     color: Colors.black,

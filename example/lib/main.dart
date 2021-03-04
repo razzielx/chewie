@@ -1,11 +1,12 @@
 import 'package:chewie/chewie.dart';
+import 'package:chewie_example/auto_rotate.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ext_video_player/ext_video_player.dart';
 
 void main() {
   runApp(
-    const ChewieDemo(),
+    const ChewieRotateDemo(),
   );
 }
 
