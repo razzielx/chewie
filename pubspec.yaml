@@ -11,8 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  ext_video_player: ^0.0.6
-  wakelock: ^0.2.1+1
+  ext_video_player: 
+    git:
+      url: https://github.com/razzielx/ext_video_player
+      ref: master  
+  wakelock: ^0.5.0+2
 
 dev_dependencies:
   flutter_test:

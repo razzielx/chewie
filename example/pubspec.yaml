@@ -12,6 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   ext_video_player: 
+    git:
+      url: https://github.com/razzielx/ext_video_player
+      ref: master  
 
 dev_dependencies:
   flutter_test:
