@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:ext_video_player/ext_video_player.dart';
 
 class PlayerWithControls extends StatelessWidget {
-  const PlayerWithControls({Key key}) : super(key: key);
+  const PlayerWithControls({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

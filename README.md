@@ -1,5 +1,5 @@
 # chewie
-[![Version](https://img.shields.io/badge/pub-v0.12.0-blue)](https://pub.dev/packages/chewie)
+[![Version](https://img.shields.io/pub/v/chewie.svg)](https://pub.dev/packages/chewie)
 ![CI](https://github.com/brianegan/chewie/workflows/CI/badge.svg)
 [![Generic badge](https://img.shields.io/badge/platform-android%20|%20ios%20|%20web%20-blue.svg)](https://pub.dev/packages/chewie)
 
@@ -80,9 +80,10 @@ final playerWidget = Chewie(
 );
 ```
 
-## iOS warning
+## iOS warning 
+The video_player plugin used by chewie will only work in iOS simulators if you are on flutter 1.26.0 or above. You may need to switch to the beta channel `flutter channel beta`
+Please refer to this [issue](https://github.com/flutter/flutter/issues/14647).
 
-The video player plugin used by chewie is not functional on iOS simulators. An iOS device must be used during development/testing. Please refer to this [issue](https://github.com/flutter/flutter/issues/14647).
 
 
 ```
